@@ -1,0 +1,209 @@
+.formFull {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 3vh 0vw;
+  color: #767676;
+}
+
+.classSmall {
+  visibility: visible;
+  color: red;
+  display: block;
+  padding-left: 5px;
+  font-size: 1em;
+  padding-top: 5px;
+}
+
+.formFull .formNameFull {
+  width: 100%;
+}
+
+.formFull .formEmailFull,
+.formFull .formPwFull {
+  width: 60%;
+}
+
+.formFull .formNameFull,
+.formFull .formEmailFull {
+  padding-bottom: 20px;
+}
+
+.formFull .formPhoneFull,
+.formFull .formBirthFull {
+  width: 40%;
+  padding-left: 3vw;
+}
+
+.formFull input {
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #aaaaaa;
+  border-radius: 4px;
+  height: 3em;
+  background: white;
+  padding: 0 10px;
+  color: #767676;
+}
+
+.formFull input:focus {
+  outline: 0;
+}
+
+.formName,
+.formEmail,
+.formPhone,
+.formPassword,
+.formBirth {
+  width: 100%;
+}
+
+#footer{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .terms {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  .geekmark {
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    border: solid 2px #0dbdbd;
+    border-radius: 5px;
+  }
+  
+  .terms input:checked ~ .geekmark {
+    background-color: #0dbdbd;
+  }
+  
+  .geekmark:after {
+    content: "";
+    position: absolute;
+  }
+  
+  .terms input:checked ~ .geekmark:after {
+    display: block;
+  }
+  
+  .terms .geekmark:after {
+    left: 5px;
+    bottom: 3px;
+    width: 2.5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 2px;
+  }
+  
+  
+  .box-terms label {
+    cursor: pointer;
+    display: flex;
+    font-size: 1.125em;
+    padding-left: 20px;
+    padding-top: 10px;
+  
+}
+
+.button-register {
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
+  width: 81px;
+  height: 40px;
+  background: #0dbdbd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .button-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 40%;
+    height: 7vh;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .formFull {
+    margin: 2vh auto;
+  }
+
+  .formFull .formNameFull,
+  .formFull .formEmailFull {
+    padding-bottom: 20px;
+  }
+
+  .formPhoneFull,
+  .formBirthFull {
+    order: 1;
+  }
+
+  .formEmailFull,
+  .formPwFull {
+    width: 100% !important;
+  }
+
+  .formPhoneFull,
+  .formBirthFull {
+    width: 50% !important;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0px !important;
+    margin-top: 2vh;
+  }
+
+  .formPhone,
+  .formBirth {
+    display: flex !important;
+    width: 95%;
+  }
+
+  .formBirthFull {
+    padding-right: 2vw;
+    align-content: flex-end;
+  }
+
+  .formBirth {
+    justify-content: flex-end;
+  }
+
+  .formPhone {
+    margin: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+  .formFull {
+    margin: 1vh auto;
+  }
+
+  .formFull .form1,
+  .formFull .form2 {
+    padding-bottom: 10px;
+  }
+
+
