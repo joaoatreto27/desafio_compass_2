@@ -60,7 +60,6 @@
 #footer{
   display: flex;
   width: 100%;
-  background-color: black;
   justify-content: space-between;
 }
 
@@ -98,9 +97,9 @@ input[type="checkbox"] {
   }
   
   .terms .geekmark:after {
-    left: 5px;
-    bottom: 3px;
-    width: 2.5px;
+    left: 6.1px;
+    bottom: 4px;
+    width: 2.8px;
     height: 10px;
     border: solid white;
     border-width: 0 3px 3px 0;
