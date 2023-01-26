@@ -12,9 +12,9 @@
 
 ### Desafio
 
-Construir uma tela de cadastro para funcionários, onde podem ser adicionados dados obrigatórios como: nome, email, aniversário, GitHub, nome do time, instituição de ensino e graduação, e campos opcionais como certificados conquistados e linkedin.<br/>
+Desenvolver uma tela de login para um sistema interno com validações.<br/>
 O mesmo também possui avisos caso alguma informação, necessária, não seja preenchida corretamente.<br/>
-Depois de preecher corretamente todos os campos, o usuário é direcionado a página "Sucess" onde será mostrado todos os dados que foram preenchidos pelo mesmo.
+Depois de preecher corretamente todos os campos, o usuário é direcionado a página "Sucess" onde poderá voltar para página de login.
 
 ### Screenshot
 <div align="center">
@@ -25,8 +25,8 @@ Depois de preecher corretamente todos os campos, o usuário é direcionado a pá
 
 ### Links
 
-- Solução: [Repositório GitHub](https://github.com/joaoatreto27/sprint4_compass)
-- Deploy: [Deploy](https://sprint-4-squad-red.netlify.app/)
+- Solução: [Repositório GitHub](https://github.com/joaoatreto27/desafio_compass_2)
+- Deploy: [Deploy](https://desafio-compass-vue.netlify.app/#/)
 
 ### Construido com
 
@@ -39,14 +39,11 @@ Depois de preecher corretamente todos os campos, o usuário é direcionado a pá
 
 ### Validações
 
-- Fullname: Primeira letar maiúscula, no mínimo duas letras em cada palavra e no mínimo um espaço entre duas palavras;
-- Email: Pelo menos uma letra antes de um @, um letra depois do @ e uma letra depois de um ponto (.);
-- Bithday: Selecionar uma opção em cada input(Day, Month e Year);
-- GitHub: Necessita ser um link;
-- TeamName: Necessita ser um link;
-- Institution: Somente ser preenchido;
-- Graduation: Somente ser preenchido;
-
+- Full Name: Primeira letar maiúscula, no mínimo duas letras em cada palavra e no mínimo um espaço entre duas palavras;
+- Email: Pelo menos duas letras antes e depois de um @ e duas letras depois de um ponto(.);
+- Phone: Exatamente 11 caracteres;
+- Password: Entre 6 e 9 caracteres;
+- Birthday: Selecionar uma data;
 
 ## Project setup
 ```
