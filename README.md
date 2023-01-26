@@ -26,7 +26,7 @@ Depois de preecher corretamente todos os campos, o usuário é direcionado a pá
 ### Links
 
 - Solução: [Repositório GitHub](https://github.com/joaoatreto27/desafio_compass_2)
-- Deploy: [Deploy](https://desafio-compass-vue.netlify.app/#/)
+- Site: <a href="https://desafio-compass-vue.netlify.app/#/" target="_blank">Deploy</a>
 
 ### Construido com
 
